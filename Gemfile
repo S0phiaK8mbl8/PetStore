@@ -50,4 +50,4 @@ gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootst
 gem 'simple_form'
 gem 'devise', '~> 4.0.0.rc1'
 gem 'jquery-ui-rails'
-gem 'jquery-slick-rails'
+gem 'slick_rails'

@@ -1,2 +1,66 @@
-<h1>Purr Usual</h1>
-<p><em>An upscale pett boutique</em></p>
+
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+
+  </ol>
+
+  <!-- Wrapper for slides -->
+<div class="carousel-inner">
+	<div class="item active">
+      <%= image_tag "akitasnow.jpg", width:"100%", height:"800" %>
+		<div class="carousel-caption">
+        	<h3>Table to Farm</h3>
+        	<p><em>A sustainable, eco-friendly pet boutique</em></p>
+      	</div>
+
+	</div>
+    <div class="item">
+      <%= image_tag "kittenyawn.jpg", width:"100%", height:"800" %>
+      	<div class="carousel-caption">
+        	<h3>About Us</h3>
+        	<p><em>Read about our mission</em></p>
+      </div>
+    </div>
+    <div class="item">
+      <%= image_tag "petpiggy.jpg", width:"100%", height:"800" %>
+      <div class="carousel-caption">
+        <h3>Products</h3>
+        <p><em>Food, Supplies, and More</em></p>
+      </div>
+    </div>
+     <div class="item">
+      <%= image_tag "ShibaInu.jpg", width:"100%", height:"800" %>
+      <div class="carousel-caption">
+        <h3>Locations</h3>
+        <p><em>With over 50 locations nation-wide, you can find a store near you.</em></p>
+      </div>
+    </div>
+     <div class="item">
+      <%=image_tag "goldenretriever.jpg", width:"100%", height:"800" %>
+      <div class="carousel-caption">
+        <h3>Contact Us</h3>
+      </div>
+    </div>
+     <div class="item">
+      <%= image_tag "kidandcat.jpg", width:"100%", height:"800" %>
+    </div>
+</div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
